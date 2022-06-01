@@ -16,7 +16,7 @@ public class Game : MonoBehaviour
         if (gameBoard != null)
         {
             var board = Instantiate(gameBoard.gameBoardPrefab);
-            board.Initialize(gameBoard.size);
+            board.Initialize(gameBoard);
         }
     }
 }

@@ -7,5 +7,7 @@ namespace GameBoard
     {
         public ZGameBoard gameBoardPrefab;
         public Vector2Int size;
+
+        public GameTile tilePrefab;
     }
 }
